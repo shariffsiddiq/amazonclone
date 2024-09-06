@@ -1,0 +1,143 @@
+<html>
+<body>
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav-bar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+   
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.firstaddress{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.secondaddress{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+  
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+   width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border: none;
+   font-size: 1.2rem;
+   background-color: rgb(255, 157, 0);
+   color: #0F1111;
+}
+
+span{
+    font-size: 12px;
+}
+
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-cart {
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nav-cart i{
+   font-size: 30px;
+}
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.panel-ops p{
+    height: 40px;
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    /* display: flex; */
+    width: 80%;
+    font-size: 0.85rem;
+
+}
+<body>
+<html>
